@@ -1,5 +1,104 @@
-<html>
- <head>
-<p1>Test</p1>
- </head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cool Landing Page</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      color: white;
+      text-align: center;
+    }
+
+    header {
+      padding: 20px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+
+    .container {
+      margin-top: 100px;
+    }
+
+    h1 {
+      font-size: 48px;
+    }
+
+    p {
+      font-size: 18px;
+      opacity: 0.8;
+    }
+
+    .buttons {
+      margin-top: 30px;
+    }
+
+    button {
+      padding: 15px 30px;
+      margin: 10px;
+      border: none;
+      border-radius: 30px;
+      font-size: 16px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .btn-primary {
+      background: #00c6ff;
+      color: black;
+    }
+
+    .btn-primary:hover {
+      background: #00a3cc;
+    }
+
+    .btn-secondary {
+      background: transparent;
+      border: 2px solid white;
+      color: white;
+    }
+
+    .btn-secondary:hover {
+      background: white;
+      color: black;
+    }
+
+    footer {
+      position: fixed;
+      bottom: 10px;
+      width: 100%;
+      font-size: 14px;
+      opacity: 0.6;
+    }
+  </style>
+</head>
+<body>
+
+<header>My Landing Page</header>
+
+<div class="container">
+  <h1>Welcome 🚀</h1>
+  <p>This is a simple and cool landing page</p>
+
+  <div class="buttons">
+    <button class="btn-primary" onclick="startApp()">Get Started</button>
+    <button class="btn-secondary" onclick="learnMore()">Learn More</button>
+  </div>
+</div>
+
+<footer>© 2026 Your Name</footer>
+
+<script>
+  function startApp() {
+    alert("Starting the app...");
+  }
+
+  function learnMore() {
+    alert("More features coming soon!");
+  }
+</script>
+
+</body>
 </html>
